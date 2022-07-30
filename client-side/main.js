@@ -2,10 +2,10 @@ document.querySelector('#button').addEventListener('click',getYear)
 
 
 async function getYear(){
-    const playName = document.querySelector('#year').value
+    const gameYear = document.querySelector('#year').value
     try{
        
-        const response = await fetch(`https://the-2k-cover-years.herokuapp.com/api/${playName}`)
+        const response = await fetch(`https://the-2k-cover-years.herokuapp.com/api/${gameYear}`)
         const data = await response.json()
         console.log(data)
 
