@@ -6,103 +6,103 @@ const PORT = 8000
 let covers = {
       '2012':{
         'name':'Derrick Rose/Blake Griffin/Kevin Durant',
-        'game-name': '2k13'
+        'gameName': '2k13'
      },
      'unknown':{
         'name':'Years 1999-2023',
-        'game-name': 'No game'
+        'gameName': 'No game'
      },
      '1999':{
         'name':'Allen Iverson',
-        'game-name': '2k'
+        'gameName': '2k'
      },
      '2000':{
         'name':'Allen Iverson',
-        'game-name': '2k1'
+        'gameName': '2k1'
      },
      '2001':{
         'name':'Allen Iverson',
-        'game-name': '2k2'
+        'gameName': '2k2'
      },
      '2002':{
         'name':'Allen Iverson',
-        'game-name': '2k3'
+        'gameName': '2k3'
      },
      '2003':{
         'name':'Allen Iverson',
-        'game-name': '2k4'
+        'gameName': '2k4'
      },
      '2004':{
         'name':'Ben Wallace',
-        'game-name': '2k5'
+        'gameName': '2k5'
      },
      '2005':{
         'name':"Shaquille O'Neal",
-        'game-name': '2k6'
+        'gameName': '2k6'
      },
      '2006':{
         'name':"Shaquille O'Neal",
-        'game-name': '2k7'
+        'gameName': '2k7'
      },
      '2007':{
         'name':"Chris Paul",
-        'game-name': '2k8'
+        'gameName': '2k8'
      },
      '2008':{
         'name':"Kevin Garnett",
-        'game-name': '2k9'
+        'gameName': '2k9'
      },
      '2009':{
         'name':"Kobe 'bean' Bryant",
-        'game-name': '2k10'
+        'gameName': '2k10'
      },
      '2010':{
         'name':"Michael Jordan",
-        'game-name': '2k11'
+        'gameName': '2k11'
      },
      '2011':{
         'name':"Michael Jordan/Larry Bird/Magic Johnson",
-        'game-name': '2k12'
+        'gameName': '2k12'
      },
      '2013':{
         'name':"Lebron James",
-        'game-name': '2k14'
+        'gameName': '2k14'
      },
      '2014':{
         'name':"Kevin Durant",
-        'game-name': '2k15'
+        'gameName': '2k15'
      },
      '2015':{
         'name':"Steph 'The Chef' Curry/James Harden/Anthony Davis",
-        'game-name': '2k16'
+        'gameName': '2k16'
      },
      '2016':{
         'name':"Paul George",
-        'game-name': '2k17'
+        'gameName': '2k17'
      },
      '2017':{
         'name':"Kyrie Irving",
-        'game-name': '2k18'
+        'gameName': '2k18'
      },
      '2018':{
         'name':"Giannis 'The Greek Freak' Antetokounmpo",
-        'game-name': '2k19'
+        'gameName': '2k19'
      },
      '2019':{
         'name':"Anthony Davis",
-        'game-name': '2k20'
+        'gameName': '2k20'
      },
      '2020':{
         'name':"Damian Lillard/Zion Williamson",
-        'game-name': '2k21'
+        'gameName': '2k21'
      },
      '2021':{
         'name':"Luka Doncic",
-        'game-name': '2k22'
+        'gameName': '2k22'
      },
      '2022':{
         'name':"Devin Booker",
-        'game-name': '2k23'
+        'gameName': '2k23'
      }
 }
 
