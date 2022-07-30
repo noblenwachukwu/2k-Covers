@@ -2,6 +2,7 @@ const express = require('express')
 const app = express() 
 const PORT = 8000 
 
+
 let covers = {
       '2012':{
         'name':'Derrick Rose/Blake Griffin/Kevin Durant',
@@ -119,6 +120,6 @@ app.get('/api/:year', (request,response)=>{
 })
 
 
-app.listen(PORT || process.env.PORT,()=>{
+app.listen(process.env.PORT || PORT,()=>{
   console.log(`my server is running on ${PORT} !!`)
 })
