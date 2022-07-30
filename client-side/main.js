@@ -9,7 +9,7 @@ async function getYear(){
         const data = await response.json()
         console.log(data)
 
-        document.querySelector('#name').innerText = data
+        document.querySelector('#name').innerText = data.name
         document.querySelector('#game').innerText = data.gameName
 
          }catch(error){
