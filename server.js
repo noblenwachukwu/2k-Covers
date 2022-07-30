@@ -116,9 +116,9 @@ app.get('/' , (request,response)=>{
 app.get('/api/:year', (request,response)=>{
     const player = request.params.year
     if(covers[player]){
-        response.json(covers[player].name)
+        response.json(covers[player])
     }else{
-        response.json(covers['unknown'].name)
+        response.json(covers['unknown'])
     }
 })
 
